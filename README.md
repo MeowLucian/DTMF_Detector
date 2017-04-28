@@ -13,9 +13,9 @@ DTMF_tone_generator.m
 * Dual-Tone_multifrequency_generator
 <img src="https://raw.githubusercontent.com/MeowLucian/DTMF_Detector/master/Picture/Number_panel.png" width="350">
 
-![Equation](http://latex.codecogs.com/gif.latex?f_s%20%3D%208000%7B%5Crm%7BHz%7D%7D)
+<img src="https://raw.githubusercontent.com/MeowLucian/DTMF_Detector/master/Picture/Equation_1.PNG">
 
-![Equation](http://latex.codecogs.com/gif.latex?%5COmega%20%3D%20%5Cfrac%7B%7B2%5Cpi%20f%7D%7D%7B%7Bf_s%20%7D%7D)
+<img src="https://raw.githubusercontent.com/MeowLucian/DTMF_Detector/master/Picture/Equation_2.PNG">
 
 <img src="https://raw.githubusercontent.com/MeowLucian/DTMF_Detector/master/Picture/Dual-Tone_multifrequency_generator.png" width="500">
 
@@ -34,9 +34,9 @@ button_Decode.m
 
 <img src="https://raw.githubusercontent.com/MeowLucian/DTMF_Detector/master/Picture/Goertzel_Equation.png" width="350">
 
-![Equation](http://latex.codecogs.com/gif.latex?k%20%3D%20%5Cfrac%7Bf%7D%7B%7Bf_s%20%7D%7D%20%5Ctimes%20N)
+<img src="https://raw.githubusercontent.com/MeowLucian/DTMF_Detector/master/Picture/Equation_3.PNG">
 
-![Equation](http://latex.codecogs.com/gif.latex?N%3D205)
+<img src="https://raw.githubusercontent.com/MeowLucian/DTMF_Detector/master/Picture/Equation_4.PNG">
 
 | DTMF Frequency (Hz) | Frequency Bin : k |
 |:-------------------:|:-----------------:|
@@ -49,9 +49,9 @@ button_Decode.m
 | 1477                | 38                |
 | 1633                | 42                |
 
-<img src="http://latex.codecogs.com/gif.latex?A_k%20%3D%20%5Cfrac%7B2%7D%7BN%7D%5Csqrt%20%7B%5Cleft%7C%20%7BX%28k%29%7D%20%5Cright%7C%5E2%20%7D">
+<img src="https://raw.githubusercontent.com/MeowLucian/DTMF_Detector/master/Picture/Equation_5.PNG">
 
-<img src="http://latex.codecogs.com/gif.latex?%7B%5Crm%7BThreshold%7D%7D%20%3D%20%7B%5Crm%7Bsum%7D%7D%28A_k%29/4">
+<img src="https://raw.githubusercontent.com/MeowLucian/DTMF_Detector/master/Picture/Equation_6.PNG">
 
 ```
 button_Clear.m
